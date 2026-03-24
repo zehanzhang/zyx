@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Nunito', 'ZCOOL KuaiLe', system-ui, sans-serif;
+  --font-display: 'ZCOOL KuaiLe', 'Nunito', cursive;
+  --color-sky-blue: #4FC3F7;
+  --color-sun-yellow: #FFD54F;
+  --color-grass-green: #81C784;
+  --color-coral-orange: #FF8A65;
+  --color-lavender: #CE93D8;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'Nunito', 'ZCOOL KuaiLe', system-ui, sans-serif;
+}
+
+.font-display {
+  font-family: 'ZCOOL KuaiLe', 'Nunito', cursive;
+}
